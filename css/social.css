@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100vw;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    background-color: darkslateblue;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    width: 100vw;
+}
+
+a:hover{
+    background-color: rgb(52, 45, 102);
+    font-weight: bold;
+    transition: 0.5s;
+}
